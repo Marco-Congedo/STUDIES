@@ -46,7 +46,7 @@ logical processor.
 
 ### References
 
-P. Ablin, J.F. Cardoso, A. Gramfort (2018) [Beyond Pham's algorithm
+Ablin P., Cardoso J.F., Gramfort A. (2018) [Beyond Pham's algorithm
 for joint diagonalization](https://hal.archives-ouvertes.fr/hal-01936887v1),
 Proc. ESANN Conference.
 
@@ -55,6 +55,6 @@ separation of human electroencephalogram by approximate joint
 diagonalization of second order statistics](https://hal.archives-ouvertes.fr/hal-00343628/document).
 Clinical Neurophysiology 119, 2677-2686.
 
-D.-T. Pham (2000) [Joint approximate diagonalization of positive definite
+Pham D.-T. (2000) [Joint approximate diagonalization of positive definite
 matrices](https://pdfs.semanticscholar.org/0cb5/ca9de76b8893a2549ec278942bb6a5a37a35.pdf?_ga=2.131902607.124228321.1577610632-183244851.1563047228),
 SIAM Journal on Matrix Analysis and Applications, 22(4), 1136–1152.
