@@ -4,8 +4,8 @@ This repository holds a collection of finalized studies in Julia
 
 ## Index
 
-|         Name         |         Content          |
-|:--------------------:|:------------------------:|
+|         Name         |         Content         |
+|:--------------------:|:------------------------|
 | AJD Algos Benchmark  | benchmark for speed performance of Approximate Joint Diagnalization Algorithms |
 
 ## Content
@@ -25,7 +25,7 @@ and the *quasi-Newton algorithm* of Ablin et al. (1999).
 
 | Figure 'AJD Benchmark'  |  Legend                 |
 |:-----------------------:|:-----------------------:|
-| ![](/AJD-Algos-Benchmark/Figure.png) | The quasi-Newton is one order magnitude faster then Pham's algorithm |
+| ![](/AJD-Algos-Benchmark/Figure.png) | On the average the quasi-Newton algorithm execute in about 50ms on these real data. It is about one order of magnitude faster as compared to Pham's algorithm. Note that Pham's algorithm in Julia already runs several time faster than in Matlab and Python. |
 
 
 
