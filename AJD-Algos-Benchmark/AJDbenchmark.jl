@@ -1,4 +1,4 @@
-#   Script "QNLogLikeBenchmark.jl" for Julia language
+#   Script "AJDbenchmark.jl" for Julia language
 #
 #   MIT License
 #   Copyright (c) 2020
@@ -8,7 +8,8 @@
 # DIRECTIONS
 #
 # If you have never used Julia before, read first the accompanying file
-# "WhatsJulia_ReadME.txt".
+# "Install-Julia-README.md" located at
+#  https://github.com/Marco-Congedo/STUDIES.
 #
 # Before running the script, install the required packages. For that,
 # execute the following line in Julia's REPL and wait until
@@ -23,7 +24,7 @@
 # Joint Diagonalization (AJD) algorithm of Ablin, Cardoso and
 # Gramfort (2019) and the log-likelihood algorithm of Pham (2000)
 # on a real EEG database using the julia language.
-# Read the accompanying `READ.ME` file for details.
+# Read the accompanying `README.md` file for details.
 
 using Statistics, LinearAlgebra, Dates, Random, MAT, Diagonalizations
 
