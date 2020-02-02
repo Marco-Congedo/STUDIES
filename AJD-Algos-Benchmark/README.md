@@ -6,6 +6,13 @@ of *approximate joint diagonalization* (AJD) algorithms implemented in the
 package. To know more about those AJD algorithms
 see [here](https://marco-congedo.github.io/Diagonalizations.jl/dev/algorithms/).
 
+As an example, the script compares two AJD algorithms optimizing the log-likelihood criterion: the original *Pham's algorithm* (2000)
+and the *quasi-Newton algorithm* of Ablin et al. (1999).
+
+| Figure 'AJD Benchmark'  |  Legend                |
+|:-----------------------:|:-----------------------|
+| ![](Figure.png) | On the average the quasi-Newton algorithm execute in about 50ms on these real data. It is about one order of magnitude faster as compared to Pham's algorithm. Note that Pham's algorithm ialready runs several time faster in Julia as compared to Matlab and Python |
+
 The accompanying file `Cospectra.mat` holds Fourier cospectra
 computed on 84 eyes-closed resting-state EEG recordings obtained
 on healthy individuals (sampling rate: 128, 19 electrodes placed
@@ -33,12 +40,6 @@ times and the minimum completion time across trials is retained.
 All computations for the benckmark are carried out on a single
 logical processor.
 
-As an example, the script compares two AJD algorithms optimizing the log-likelihood criterion: the original *Pham's algorithm* (2000)
-and the *quasi-Newton algorithm* of Ablin et al. (1999).
-
-| Figure 'AJD Benchmark'  |  Legend                |
-|:-----------------------:|:-----------------------|
-| ![](Figure.png) | On the average the quasi-Newton algorithm execute in about 50ms on these real data. It is about one order of magnitude faster as compared to Pham's algorithm. Note that Pham's algorithm ialready runs several time faster in Julia as compared to Matlab and Python |
 
 ### References
 
