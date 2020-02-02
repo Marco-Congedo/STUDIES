@@ -22,5 +22,10 @@ For each set of cospectra the algorithms are run several times and the median ex
 
 As an example, the script compares two AJD algorithms optimizing the log-likelihood criterion: the original *Pham's algorithm* (2000)
 and the *quasi-Newton algorithm* of Ablin et al. (1999). 
-![](/AJD_Algos_Benchmark/Figure.png)
+
+| Figure 'AJD Benchmark'  |  Legend                 |
+|:-----------------------:|:-----------------------:|
+| ![](/AJD-Algos-Benchmark/Figure.png) | The quasi-Newton is one order magnitude faster then Pham's algorithm |
+
+
 
