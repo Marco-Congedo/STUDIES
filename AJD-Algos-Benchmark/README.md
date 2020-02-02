@@ -11,7 +11,7 @@ and the *quasi-Newton algorithm* of Ablin et al. (1999).
 
 | Figure 'AJD Benchmark'  |  Legend                |
 |:-----------------------:|:-----------------------|
-| ![](Figure.png) | On the average the quasi-Newton algorithm execute in about 50ms on these real data. It is about one order of magnitude faster as compared to Pham's algorithm. Note that Pham's algorithm ialready runs several time faster in Julia as compared to Matlab and Python |
+| ![](Figure.png) | On the average the quasi-Newton algorithm execute in about 50ms on these real data. It is about one order of magnitude faster as compared to Pham's algorithm. Note that Pham's algorithm is already runs several time faster in Julia as compared to Matlab and Python |
 
 The accompanying file `Cospectra.mat` holds Fourier cospectra
 computed on 84 eyes-closed resting-state EEG recordings obtained

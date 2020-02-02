@@ -6,4 +6,4 @@ This repository holds a collection of studies in Julia
 
 |         Name         |        Content           |
 |:--------------------:|:------------------------:|
-| [AJD-Algos-Benchmark](https://github.com/Marco-Congedo/STUDIES/tree/master/AJD%20Algos%20Benchmark)  | benchmark for speed performance of Approximate Joint Diagnalization Algorithms |
+| [AJD-Algos-Benchmark](https://github.com/Marco-Congedo/STUDIES/tree/master/AJD-Algos-Benchmark)  | benchmark for speed performance of Approximate Joint Diagnalization Algorithms |
