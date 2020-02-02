@@ -7,7 +7,7 @@ package. To know more about those AJD algorithms
 see [here](https://marco-congedo.github.io/Diagonalizations.jl/dev/algorithms/).
 
 As an example, the script compares two AJD algorithms optimizing the log-likelihood criterion: the original *Pham's algorithm* (2000)
-and the *quasi-Newton algorithm* of Ablin et al. (2018). As shown in the figure, on the average the quasi-Newton algorithm executes in about 50ms on these real data. It is about one order of magnitude faster as compared to Pham's algorithm. Note that Pham's algorithm runs several time faster in Julia as compared to Matlab and Python. 
+and the *quasi-Newton algorithm* of Ablin et al. (2018). As shown in the figure, on the average the quasi-Newton algorithm executes in about 50ms on these real data. It is about one order of magnitude faster as compared to Pham's algorithm. Note that Pham's algorithm runs several times faster in Julia as compared to Matlab and Python. 
 
 | Figure 'AJD Benchmark'  |  Legend                |
 |:-----------------------:|:-----------------------|
