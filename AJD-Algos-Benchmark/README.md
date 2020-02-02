@@ -49,7 +49,7 @@ P. Ablin, J.F. Cardoso, A. Gramfort (2019) [Beyond Pham's algorithm
 for joint diagonalization](https://hal.archives-ouvertes.fr/hal-01936887v1),
 Proc. ESANN Conference.
 
-Congedo M, Gouy-Pailler C, Jutten C (2018) [On the blind source
+Congedo M, Gouy-Pailler C, Jutten C (2008) [On the blind source
 separation of human electroencephalogram by approximate joint
 diagonalization of second order statistics](https://hal.archives-ouvertes.fr/hal-00343628/document).
 Clinical Neurophysiology 119, 2677-2686.
