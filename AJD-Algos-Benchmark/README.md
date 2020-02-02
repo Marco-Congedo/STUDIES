@@ -45,7 +45,7 @@ logical processor.
 
 ### References
 
-P. Ablin, J.F. Cardoso, A. Gramfort (2019) [Beyond Pham's algorithm
+P. Ablin, J.F. Cardoso, A. Gramfort (2018) [Beyond Pham's algorithm
 for joint diagonalization](https://hal.archives-ouvertes.fr/hal-01936887v1),
 Proc. ESANN Conference.
 
