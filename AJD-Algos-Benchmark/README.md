@@ -3,7 +3,7 @@
 The *AJDbenchmark.jl* script allows to benchmark the speed performance
 of *approximate joint diagonalization* (AJD) algorithms implemented in the
 [Diagonalizations.jl](https://github.com/Marco-Congedo/Diagonalizations.jl)
-package for the Julia language. To know more about those AJD algorithms
+package for the *Julia language*. To know more about those AJD algorithms
 see [here](https://marco-congedo.github.io/Diagonalizations.jl/dev/algorithms/).
 The implementations are [here](https://github.com/Marco-Congedo/Diagonalizations.jl/tree/master/src/optim).
 
