@@ -20,7 +20,7 @@ epochs and a Harris tapering window (see the documentation of the
 [FourierAnalysis.jl](https://github.com/Marco-Congedo/FourierAnalysis.jl) package), yielding copsectra at 0.5Hz resolution.
 
 The 47 cospectra in the frequency band-pass region 1-24 Hz are submitted
-to the AJD algorithms. This is a real-case-scenarion usage of AJD
+to the AJD algorithms. This is a real-case-scenario usage of AJD
 algorithms as the diagonalizations of such matrices yields a blind source
 separation method specifically tailored for EEG data (Congedo et al., 2008).
 
@@ -33,12 +33,9 @@ times and the minimum completion time across trials is retained.
 All computations for the benckmark are carried out on a single
 logical processor.
 
-The benchmark runs the AJD of *Fourier cospectra* estimated on a database of *84 eyes-closed resting state EEG recordings*.
-For each set of cospectra the algorithms are run several times and the median execution time is retained.
-
 As an example, the script compares two AJD algorithms optimizing the log-likelihood criterion: the original *Pham's algorithm* (2000)
 and the *quasi-Newton algorithm* of Ablin et al. (1999).
-![](/Figure.png)
+![](Figure.png)
 
 ### References
 
