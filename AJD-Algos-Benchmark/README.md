@@ -11,7 +11,7 @@ and the *quasi-Newton algorithm* of Ablin et al. (2018).
 
 | Figure 'AJD Benchmark'  |  Legend                |
 |:-----------------------:|:-----------------------|
-| ![](Figure.png) | *Representative execution time for jointly diagonalizing 47 Fourier cospectra on a database of 84 EEG resting state recordings. On the average the quasi-Newton algorithm executes in about 50ms on these real data. It is about one order of magnitude faster as compared to Pham's algorithm. Note that Pham's algorithm runs several time faster in Julia as compared to Matlab and Python*. The benchmark has been run on a Dell Latitude 5490 laptop equipped with a Intel i7-8650U CPU @1.90GHz (8 logic processors) and with 32Go of RAM  |
+| ![](Figure.png) | *Representative execution time for jointly diagonalizing 47 Fourier cospectra on a database of 84 EEG resting state recordings. On the average the quasi-Newton algorithm executes in about 50ms on these real data. It is about one order of magnitude faster as compared to Pham's algorithm. Note that Pham's algorithm runs several time faster in Julia as compared to Matlab and Python. The benchmark has been run on a Dell Latitude 5490 laptop equipped with a Intel i7-8650U CPU @1.90GHz (8 logic processors) and with 32Go of RAM*  |
 
 The accompanying file `Cospectra.mat` holds Fourier cospectra
 computed on 84 eyes-closed resting-state EEG recordings obtained
