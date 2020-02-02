@@ -11,7 +11,7 @@ and the *quasi-Newton algorithm* of Ablin et al. (2018). As shown in the figure,
 
 | Figure 'AJD Benchmark'  |  Legend                |
 |:-----------------------:|:-----------------------|
-| ![](Figure.png) | *Representative execution time for jointly diagonalizing 47 Fourier cospectra estimated on a database of 84 EEG resting state recordings. The benchmark has been run on a Dell Latitude 5490 laptop equipped with a Intel i7-8650U CPU @1.90+GHz (8 logic processors) and with 32Go of RAM*  |
+| ![](Figure.png) | *Representative execution time for jointly diagonalizing 47 Fourier cospectra estimated on a database of 84 EEG resting state recordings. The benchmark has been run on a Dell Latitude 5490 laptop equipped with a 8-logic processors Intel i7-8650U CPU @1.90GHz(base)-4.20GHz(Max Turbo) and with 32Go of RAM*  |
 
 ### Methods
 
