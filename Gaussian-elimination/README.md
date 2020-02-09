@@ -2,24 +2,24 @@
 
 The *choleskyBenchmark.jl* script benchmarks Julia's
 [cholesky](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/#LinearAlgebra.cholesky)
-method based on LAPACK, against a modified symmetric Gaussian elimination
-procedure written by the author based on the seminal work of Alan Turing (1948).
+method based on LAPACK, run in single- and multi-threading mode, against a modified Gaussian elimination
+procedure written by the author based on the seminal work of Alan Turing (1948). The latter is a classical recursion, thus always single-threaded.
 
-Those being deterministic algorithms, the minimum execution time
+As exaplined by Higham (2011, p.5), LAPACK Gaussian elimination algorithms
+(including LU and Cholesky factorizations) switch to partitioned mode
+above a certain matrix size value, transforming part of the recursion
+into matrix-matrix operations, which can be parallelized.
+
+This is illustrated in the following figures (log-log plots).
+All algorithms being deterministic, the minimum execution time
 across several trials is considered (using the
 [BenchmarkTool.jl](https://github.com/JuliaCI/BenchmarkTools.jl) package).
-The following matrix size values are benchmarked:
+The following matrix size values are tested:
 
 5, 10, 20, 30, 40, 50, 75, 100, 150, 200, 300
 
-As exaplined by Higham (2011, p.5), LAPACK Gaussian elimination algorithms
-(including LU and Cholesky actorizations) switch to partitioned mode
-above a certain matrix size value, transforming part of the recursons
-into matrix-matrix operations, which can be parallelized.
-This is illustrated in the following figures (log-log plots):
-
-In Fig. 1 we allowe BLAS to use 8 threads.
-The transition to partitioned mode happens in between matrix size 30 and 40.
+In Fig. 1 we allow BLAS to use 8 threads.
+The transition to partitioned mode appears to happen in between matrix size 30 and 40.
 This actually jeopardizes the performance until size 200.
 For larger matrices the multi-threading is clearly faster.
 In Fig. 2 we allow BLAS to use only one thread. This makes the algorithm
@@ -27,8 +27,8 @@ behaving pretty much like the (non-partitioned) recursion.
 
 | Figure 'AJD Benchmark'  |  Legend                |
 |:-----------------------:|:-----------------------|
-| ![](Figure1.png) | *Minimum execution time in μs for several values of matrix size. BLAS is allowed to use 8 threads |
-| ![](Figure2.png) | *Minimum execution time in μs for several values of matrix size. BLAS is allowed to use 1 threads*  |
+| ![](Figure1.png) | *Minimum execution time in μs for several values of matrix size. BLAS is allowed to use* **8 threads** |
+| ![](Figure2.png) | *Minimum execution time in μs for several values of matrix size. BLAS is allowed to use* **1 threads**  |
 
 *For both algoritms the reported time includes overheads for copying the input matrix and making checks. The benchmark has been run on a Dell Latitude 5490 laptop equipped with an Intel i7-8650U CPU @1.90GHz(base)-4.20GHz(Max Turbo) and with 32Go of RAM*  
 
