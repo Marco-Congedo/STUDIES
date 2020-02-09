@@ -112,6 +112,9 @@ P=randP(ComplexF64, n)
 L=trifact(P)
 @test(L*L'≈P)
 
+BLAS.set_num_threads(8)
+#BLAS.set_num_threads(1)
+
 
 # benchmark
 N=[5, 10, 20, 30, 40, 50, 75, 100, 150, 200, 300]
