@@ -21,7 +21,7 @@ The following matrix size values are tested:
 In Fig. 1 we allow BLAS to use 8 threads.
 The transition to partitioned mode appears to happen in between matrix size 30 and 40.
 This actually jeopardizes the performance until size 200.
-For larger matrices the multi-threading is clearly faster.
+For larger matrices the multi-threading is clearly faster (data not shown).
 In Fig. 2 we allow BLAS to use only one thread. This makes the algorithm
 behaving pretty much like the (non-partitioned) recursion.
 
@@ -30,7 +30,7 @@ behaving pretty much like the (non-partitioned) recursion.
 | ![](Figure1.png) | *Minimum execution time in μs for several values of matrix size. BLAS is allowed to use* **8 threads** |
 | ![](Figure2.png) | *Minimum execution time in μs for several values of matrix size. BLAS is allowed to use* **1 threads**  |
 
-*For both algoritms the reported time includes overheads for copying the input matrix and making checks. The benchmark has been run on a Dell Latitude 5490 laptop equipped with an Intel i7-8650U CPU @1.90GHz(base)-4.20GHz(Max Turbo) and with 32Go of RAM*  
+*For both algoritms the reported time includes overheads for copying the input matrix and making checks. The benchmark has been run on a Dell Latitude 5490 laptop equipped with an Intel i7-8650U CPU @1.90GHz(base)-4.20GHz(Max Turbo) and with 32Go of RAM*. Julia uses OpenBLAS.
 
 
 ### References
