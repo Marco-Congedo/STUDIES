@@ -30,6 +30,8 @@ using Statistics, LinearAlgebra, Dates, Random, MAT, Diagonalizations
 
 const ntrials = 15
 const ajdAlgoritms = [:QNLogLike, :LogLike]
+# const ajdAlgoritms = [:JADE, :JADEmax]
+
 # here above you can add other AJD algorithms supported in Diagonalizations.jl
 
 
@@ -73,7 +75,8 @@ using Plots
 plotly()
 # pyplot(), GR,...
 📉 =  plot(sort(R', dims=1),
-           label=["Ablin et al. (2018)" "Pham (2000)"],
+           label=["Ablin et al. (2018)" "Pham (2000)"]
+           #label=["Cardoso et al. (1996)" "Usevich et al. (2020)"],
            xtickfontsize=13, ytickfontsize=13,
            xguidefontsize=16, yguidefontsize=16,
            linewidth=2, titlefontsize=15,
