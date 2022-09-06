@@ -35,6 +35,10 @@ behaving pretty much like the (non-partitioned) recursion.
 
 ### References
 
+M. Congedo (2022) 
+[Alan Turing’s Symmetric Gaussian Elimination](https://hal.archives-ouvertes.fr/hal-03660449/document) 
+Technical Report, University Grenoble Alpes.
+
 N.J. Higham (2011)
 [Gaussian Elimination](http://eprints.maths.manchester.ac.uk/1579/1/lu5a.pdf)
 WIREs Computational Statistics, 3(3), 230-238.
